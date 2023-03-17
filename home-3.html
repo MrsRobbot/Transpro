@@ -1,0 +1,1061 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TransPro - Transport & Logistics Service HTML Template</title>
+    <!-- favicon -->
+    <link rel=icon href=assets/version-2/img/favicon.png sizes="20x20" type="image/png">
+    <!-- animate -->
+    <link rel="stylesheet" href="assets/version-2/css/animate.css">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="assets/version-2/css/bootstrap.min.css">
+    <!-- magnific popup -->
+    <link rel="stylesheet" href="assets/version-2/css/magnific-popup.css">
+    <!-- owl carousel -->
+    <link rel="stylesheet" href="assets/version-2/css/owl.carousel.min.css">
+    <!-- slick carousel -->
+    <link rel="stylesheet" href="assets/version-2/css/slick.css">
+     <!-- flaticon -->
+     <link rel="stylesheet" href="assets/version-2/fonts/flaticon.css">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="assets/version-2/css/font-awesome.min.css">
+    <!-- videoPlayer Stylesheet -->
+    <link rel="stylesheet" href="assets/version-2/css/rvideoplayer.css">
+       <!-- signin Stylesheet -->
+       <link rel="stylesheet" href="assets/version-2/css/signin.css">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="assets/version-2/css/style.css">
+    <!-- responsive Stylesheet -->
+    <link rel="stylesheet" href="assets/version-2/css/responsive.css">
+
+</head>
+
+<body class="version-2">
+     <!-- preloader area start -->
+     <div class="preloader" id="preloader">
+        <div class="preloader-inner">
+            <div class="spinner">
+                <div class="dot1"></div>
+                <div class="dot2"></div>
+            </div>
+        </div>
+    </div>
+    <!-- preloader area end -->
+
+    <!-- search Popup -->
+    <div class="body-overlay" id="body-overlay"></div>
+    <div class="search-popup" id="search-popup">
+        <form action="home.html" class="search-form">
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search.....">
+            </div>
+            <button type="submit" class="submit-btn"><i class="fa fa-search"></i></button>
+        </form>
+    </div>
+    <!-- //. search Popup -->
+
+      <!-- Signin Popup -->
+	<div class="sen-user-modal"> <!-- this is the entire modal form, including the background -->
+		<div class="sen-user-modal-container"> <!-- this is the container wrapper -->
+			<ul class="sen-switcher">
+				<li><a href="#0">Sign in</a></li>
+				<li><a href="#0">Sign up</a></li>
+			</ul>
+
+			<div id="sen-login"> <!-- log in form -->
+				<form class="sen-form">
+					<p class="fieldset">
+						<label class="image-replace sen-email" for="signin-email">E-mail</label>
+						<input class="full-width has-padding has-border" id="signin-email" type="email" placeholder="E-mail">
+						<span class="sen-error-message">Error message here!</span>
+					</p>
+
+					<p class="fieldset">
+						<label class="image-replace sen-password" for="signin-password">Password</label>
+						<input class="full-width has-padding has-border" id="signin-password" type="text"  placeholder="Password">
+						<a href="#0" class="hide-password">Hide</a>
+						<span class="sen-error-message">Error message here!</span>
+					</p>
+
+					<p class="fieldset">
+						<input type="checkbox" id="remember-me" checked>
+						<label for="remember-me">Remember me</label>
+					</p>
+
+					<p class="fieldset">
+						<input class="full-width" type="submit" value="Login">
+					</p>
+				</form>
+				
+				<p class="sen-form-bottom-message"><a href="#0">Forgot your password?</a></p>
+				<!-- <a href="#0" class="sen-close-form">Close</a> -->
+			</div> <!-- sen-login -->
+
+			<div id="sen-signup"> <!-- sign up form -->
+				<form class="sen-form">
+					<p class="fieldset">
+						<label class="image-replace sen-username" for="signup-username">Username</label>
+						<input class="full-width has-padding has-border" id="signup-username" type="text" placeholder="Username">
+						<span class="sen-error-message">Error message here!</span>
+					</p>
+
+					<p class="fieldset">
+						<label class="image-replace sen-email" for="signup-email">E-mail</label>
+						<input class="full-width has-padding has-border" id="signup-email" type="email" placeholder="E-mail">
+						<span class="sen-error-message">Error message here!</span>
+					</p>
+
+					<p class="fieldset">
+						<label class="image-replace sen-password" for="signup-password">Password</label>
+						<input class="full-width has-padding has-border" id="signup-password" type="text"  placeholder="Password">
+						<a href="#0" class="hide-password">Hide</a>
+						<span class="sen-error-message">Error message here!</span>
+					</p>
+
+					<p class="fieldset">
+						<input type="checkbox" id="accept-terms">
+						<label for="accept-terms">I agree to the <a href="#0">Terms</a></label>
+					</p>
+
+					<p class="fieldset">
+						<input class="full-width has-padding" type="submit" value="Create account">
+					</p>
+				</form>
+
+				<!-- <a href="#0" class="sen-close-form">Close</a> -->
+			</div> <!-- sen-signup -->
+
+			<div id="sen-reset-password"> <!-- reset password form -->
+				<p class="sen-form-message">Lost your password? Please enter your email address. You will receive a link to create a new password.</p>
+
+				<form class="sen-form">
+					<p class="fieldset">
+						<label class="image-replace sen-email" for="reset-email">E-mail</label>
+						<input class="full-width has-padding has-border" id="reset-email" type="email" placeholder="E-mail">
+						<span class="sen-error-message">Error message here!</span>
+					</p>
+
+					<p class="fieldset">
+						<input class="full-width has-padding" type="submit" value="Reset password">
+					</p>
+				</form>
+
+				<p class="sen-form-bottom-message"><a href="#0">Back to log-in</a></p>
+			</div> <!-- sen-reset-password -->
+			<a href="#0" class="sen-close-form">Close</a>
+		</div> <!-- sen-user-modal-container -->
+	</div> <!-- sen-user-modal -->
+<!-- //.End  Signin Popup -->
+
+    <!-- support bar area start -->
+    <div class="support-bar">
+        <div class="container">
+           <div class="row reorder-xs clearfix">
+                <div class="col-lg-6 align-self-center">
+                    <div class="support-left"><!-- support left start -->
+                        <ul>
+                            <li>
+                                <i class="flaticon-earth"></i>
+                                  <select class="country">
+                                            <option value="english selected">English</option>
+                                            <option value="Arabic">Arabic</option>
+                                            <option value="spanish">Spanish</option>
+                                            <option value="bangla" >Bangla</option>
+                                    </select>
+                            </li>
+                            <li><a href="mailTo:example@example.com"><i class="flaticon-at"></i>example@example.com</a></li>
+                            <li> <a href="tel:+8801-728-123-456"> <i class="flaticon-call-answer"></i>+8801-728-123-456</a></li>
+                        </ul>
+                    </div><!-- support left end -->
+                </div>
+                <div class="col-lg-6">
+                    <div class="support-right"> <!-- support right start -->
+                        <ul>
+                             <li class="fare-rate-responsive"><a href=""><i class="flaticon-calculator"></i>Get a Fare Rate</a></li>
+                            <li>
+                                <ul class="social-link">
+                                    <li>
+                                        <a href="#" target="_blank" class="facebook"> <i class="fa fa-facebook-f" aria-hidden="true"></i></a>
+                                    </li>
+                                    
+                                    <li><a href="#" target="_blank" class="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                    <li><a href="https://www.youtube.com/channel/UCz1tS-oRzKeElBOd6pIjgLQ" target="_blank" class="youtube"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                                    <li><a href="#" target="_blank" class="instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                    </li>
+                                   
+                                </ul>
+                            </li>
+                            <li  class="sign-nav"><a  class="sen-signin" href="#0"><i class="flaticon-man-user"></i>Sign In</a></li>
+                        </ul>
+                    </div><!-- support right end -->
+                </div>
+           </div> 
+        </div>
+    </div>
+    <!-- support bar area end -->
+
+       <!-- header area start -->
+    <div class="home-area home-v1">
+         <!-- navbar area start  -->
+         <nav class="navbar navbar-area navbar-expand-lg style-01 nav-absolute">
+                <div class="container nav-container">
+                    <div class="responsive-mobile-menu">
+                        <div class="logo-wrapper">
+                            <a href="index.html" class="logo">
+                                <img src="assets/version-2/img/logo-white.png" class="img-fluid" alt="logo">
+                            </a>
+                        </div>
+                        <button class="navbar-toggler collapsed navbar-toggler-right" type="button" data-toggle="collapse" data-target="#transport_main_menu"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="cross-menu">
+                            <span class="bar1"></span>
+                            <span class="bar2"></span>
+                            <span class="bar3"></span>
+                        </span>
+                    </button>
+                    </div>
+                    <div class="collapse navbar-collapse right-nav" id="transport_main_menu">
+                        <ul class="navbar-nav">
+                            <li class="menu-item-has-children current-menu-item">
+                                <a href="index.html">Home</a>
+                                <ul class="sub-menu">
+                                <li><a href="index.html">Home 01</a></li>
+                                <li><a href="home-2.html">Home 02</a></li>
+                                <li><a href="home-3.html">Home 03</a></li>
+                                <li><a href="home-4.html">Home 04</a></li>
+                                <li><a href="home-5.html">Home 05</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu-item-has-children">
+                                <a href="#">Pages</a>
+                                <ul class="sub-menu">
+                                    <li><a href="about.html">About</a></li>
+                                    <li><a href="blog.html">Blog</a></li>
+                                    <li><a href="blog-details.html">Blog Details</a></li>
+                                    <li><a href="service.html">Service</a></li>
+                                    <li><a href="service-details.html">Service Details</a></li>
+                                    <li><a href="pricing.html">Pricing</a></li>
+                                    <li><a href="faq.html">FAQ</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu-item-has-children">
+                                    <a href="#">Services</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="service.html">Services</a></li>
+                                        <li><a href="service-details.html">Services Details</a></li>
+                                    </ul>
+                            </li>
+                            
+                            <li>
+                                <a href="about.html">About us</a>
+                            </li>
+                            
+                            <li>
+                                <a href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </nav>
+        <!-- navbar area end -->
+
+         <!-- header slider area start -->
+         <div class="transport-slider-area-wrapper">
+             <div class="transport-slider">
+                        <div class="transport-slider-item"
+                        style="background-image:url(assets/version-2/img/slide-v1/bg-01.png);">
+                            <div class="container">
+                                    <div class="row header-height1 justify-content-end">
+                                        <div class="col-lg-5">
+                                            <div class="header-inner-wrap">
+                                                <div class="header-inner">
+                                                        <!-- header inner -->
+                                                        <span class="sub-title  wow fadeInDown">Real Solutions, Real Fast!</span>
+                                                        <h1 class="title animated slideInRight">We Will Transfer Anything in any Where </h1>
+                                                        <div class="btn-wrapper aanimated fadeInUpBig">
+                                                            <a href="#" class="transport-btn"><span>Contact for transport </span></a>
+                                                        </div>
+                                                </div><!-- //.header inner -->
+                                            </div>
+                                            
+                                        </div>
+                                        <div class="col-lg-7">
+                                                <div class="header-image">
+                                                    <div class="header-slide-image image1">
+                                                        <img src="assets/version-2/img/slide-v1/slide-01.png"  class="img-fluid"  alt="slide image">
+                                                    </div>
+                                                </div>
+                                            </div>
+                
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="transport-slider-item"
+                        style="background-image:url(assets/version-2/img/slide-v1/bg-02.png);">
+                        <div class="container">
+                                <div class="row justify-content-end">
+                                    <div class="col-lg-5">
+                                        <div class="header-inner-wrap">
+                                            <div class="header-inner">
+                                                    <!-- header inner -->
+                                                    <span class="sub-title">Real Solutions, Real Fast!</span>
+                                                    <h1 class="title">We Will Transfer Anything in any Where </h1>
+                                                    <div class="btn-wrapper animated fadeInUpBig">
+                                                        <a href="#" class="transport-btn"><span>Contact for transport </span></a>
+                                                    </div>
+                                            </div><!-- //.header inner -->
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="col-lg-7">
+                                            <div class="header-image">
+                                                <div class="header-slide-image image2">
+                                                    <img src="assets/version-2/img/slide-v1/slide-02.png"  class="img-fluid"  alt="slide image">
+                                                </div>
+                                            </div>
+                                        </div>
+            
+                                </div>
+                            </div>
+                        </div>
+                        <div class="transport-slider-item"
+                        style="background-image:url(assets/version-2/img/slide-v1/bg-03.png);">
+                        <div class="container">
+                                <div class="row justify-content-end">
+                                    <div class="col-lg-5">
+                                        <div class="header-inner-wrap">
+                                            <div class="header-inner">
+                                                    <!-- header inner -->
+                                                    <span class="sub-title">Real Solutions, Real Fast!</span>
+                                                    <h1 class="title">We Will Transfer Anything in any Where </h1>
+                                                    <div class="btn-wrapper animated fadeInUpBig">
+                                                        <a href="#" class="transport-btn"><span>Contact for transport </span></a>
+                                                    </div>
+                                            </div><!-- //.header inner -->
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="col-lg-7">
+                                            <div class="header-image">
+                                                <div class="header-slide-image image3">
+                                                    <img src="assets/version-2/img/slide-v1/slide-03.png"  class="img-fluid"  alt="slide image">
+                                                </div>
+                                            </div>
+                                        </div>
+            
+                                </div>
+                            </div>
+                        </div>
+             </div>
+                
+            </div>
+            <div class="transport-slider-progress">
+                    <span class="transport-slider-progress-bg"></span>
+                    <span class="transport-slider-progress-is"></span>
+             </div>
+        <div class="slider-bottom-transport-wrapper">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-9">
+                           <!-- header slider area end -->
+                                <div class="transport-slider-indicator">
+                                        <div class="transport-slider-nav">
+                                                <div class="transport-slider-nav-active">
+                                                        <div class="transport-slider-nav-item">
+                                                                <a href="#"> <i class="flaticon-delivery-truck-with-packages-behind"></i>Road Transport   </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="transport-slider-nav-active">
+                                                    <div class="transport-slider-nav-item">
+                                                            <a href="#"><i class="flaticon-ship"></i>Ocean Transport </a>
+                                                    </div>
+                                                </div>
+                                                <div class="transport-slider-nav-active">
+                                                        <div class="transport-slider-nav-item">
+                                                                <a href="#">  <i class="flaticon-plane"></i>Air Transport</a>
+                                                        </div>
+                                                    </div>
+                                                                                       
+                                        </div>
+                                    </div>
+                                    <!-- slider bottom transport wrapper  start -->
+                        </div>
+                        
+                        <div class="col-lg-3">
+                                <div class="transport-slider-controls">
+                                        <div class="transport-slider-nav"></div>
+                                </div>
+                            </div>
+                    </div>
+                   
+                </div>
+                <!-- slider bottom transport wrapper end -->
+            </div>
+      </div>
+        <!-- header area end -->
+        
+<!-- Start Services area  -->
+<div class="service_area">
+        <div class="container-fluid">
+            <div class="row justify-content-end">
+                 <div class="col-lg-5 col-md-12">
+                        <div class="service-content">
+                                <div class="section-title white  text-left">
+                                        <span class="subtitle">Our Services</span>
+                                        <h2 class="title">What We Can Do For You</h2>
+                                        <p>Supported neglected met she therefore unwilling discovery remainder. Way sentiments two indulgence uncommonly own.Shameless see the tolerably how continued.</p>
+                                </div>
+                                <div class="service-item">
+                                    <div class="row">
+                                        <div class="col-lg-6  col-md-6 col-sm-6">
+                                            <div class="service-single-item">
+                                                <h3><span>01</span>Ocean Cargo</h3>
+                                                <p>Its sometimes her behaviour are contented. Do listening am eagerness .</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6  col-md-6 col-sm-6">
+                                            <div class="service-single-item">
+                                                <h3><span>02</span>Fly Anywhere</h3>
+                                                <p>Its sometimes her behaviour are contented. Do listening am eagerness .</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6  col-md-6 col-sm-6">
+                                            <div class="service-single-item">
+                                                <h3><span>03</span>Cargo Storage</h3>
+                                                <p>Its sometimes her behaviour are contented. Do listening am eagerness .</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6  col-md-6 col-sm-6">
+                                            <div class="service-single-item">
+                                                <h3><span>04</span>Courier Services</h3>
+                                                <p>Its sometimes her behaviour are contented. Do listening am eagerness .</p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                        </div>
+                          
+                </div>
+                <div class="col-lg-6 remove-col-padding">
+                        <div class="service-image"></div>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Services area  -->
+
+<!-- Start Solution area  -->
+<div class="solution_area text-center">
+    <div class="container">
+        <div class="row justify-content-center">
+             <div class="col-lg-6">
+                    <div class="section-title   text-center">
+                            <span class="subtitle">Experience</span>
+                            <h2 class="title">Our Solution</h2>
+                            <p>Lose away off why half led have near bed. At engage simple father of period others except. My giving do summer of though narrow marked at. Spring formal no county ye waited.</p>
+                    </div>
+                </div>
+             </div>
+             <div class="row  justify-content-center">
+                 <div class="col-lg-2 col-md-4 col-sm-4">
+                     <div class="solution-item">
+                            <div class="solution-image">
+                                <img src="assets/version-2/img/solution/01.png" class="img-fluid" alt="solution image">
+                            </div>
+                            <h4 class="title">Export Logistics</h4>
+                     </div>
+                 </div>
+                 <div class="col-lg-2 col-md-4  col-sm-4">
+                        <div class="solution-item">
+                               <div class="solution-image">
+                                   <img src="assets/version-2/img/solution/02.png" class="img-fluid" alt="solution image">
+                               </div>
+                               <h4 class="title">Import Logistics</h4>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4   col-sm-4">
+                            <div class="solution-item">
+                                   <div class="solution-image">
+                                       <img src="assets/version-2/img/solution/03.png" class="img-fluid" alt="solution image">
+                                   </div>
+                                   <h4 class="title">Cargo Express</h4>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-4   col-sm-4">
+                                <div class="solution-item">
+                                       <div class="solution-image">
+                                           <img src="assets/version-2/img/solution/04.png" class="img-fluid" alt="solution image">
+                                       </div>
+                                       <h4 class="title">Information Express</h4>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-4   col-sm-4">
+                                    <div class="solution-item">
+                                           <div class="solution-image">
+                                               <img src="assets/version-2/img/solution/05.png" class="img-fluid" alt="solution image">
+                                           </div>
+                                           <h4 class="title">Warehousing And Distribution</h4>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-4   col-sm-4">
+                                        <div class="solution-item">
+                                               <div class="solution-image">
+                                                   <img src="assets/version-2/img/solution/06.png" class="img-fluid" alt="solution image">
+                                               </div>
+                                               <h4 class="title">Brokerage Services</h4>
+                                        </div>
+                                    </div>
+             </div>
+
+
+            </div>
+    </div>
+<!-- End Solution area  -->
+<!-- Start Our Features area  -->
+<div class="features-area">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="features-item">
+                        <div class="single-features-item">
+                            <div class="icon"><i class="flaticon-money-bag"></i></div>
+                            <h4>Transparent Pricing</h4>
+                        </div>
+                        <div class="single-features-item">
+                            <div class="icon"><i class="flaticon-box"></i></div>
+                            <h4>Warehouse Storage</h4>
+                        </div>
+                        <div class="single-features-item">
+                            <div class="icon"><i class="flaticon-delivery-truck"></i></div>
+                            <h4>Real-Time Tracking</h4>
+                        </div>
+                        <div class="single-features-item">
+                            <div class="icon"><i class="flaticon-shield"></i></div>
+                            <h4>Security For Cargo</h4>
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-lg-6 d-flex">
+                        <div class="section-title white  text-left m-auto">
+                                <span class="subtitle">Our Features</span>
+                                <h2 class="title active">Why Choose Us!</h2>
+                                <p>Affronting everything discretion men now own did. Still round match we to. Frankness pronounce daughters remainder extensive has but. Happiness cordially one determine concluded fat. Plenty season beyond by hardly giving of. Consulted or acuteness dejection an smallness if. Outward general passage another as it. Affronting everything discretion men now own did. Still round match we to. Frankness pronounce daughters remainder extensive has but. Building mr concerns servants in he outlived am breeding.He so lain good miss when sell some at if.</p>
+                                <div class="btn-wrapper animated fadeInUpBig text-left">
+                                        <a href="#" class="btn-bounce">Contact us</a>
+                                    </div>
+                        </div>
+                    </div>
+                 </div>
+        </div>
+</div>
+<!-- End Our Features area  -->
+
+<!-- Start Logistics area  -->
+<div class="logistics_area">
+        <div class="container-fluid">
+            <div class="row justify-content-start">
+                    <div class="col-lg-6 remove-col-padding">
+                            <div class="logistics-image"></div>
+                        </div>
+                 <div class="col-lg-5">
+                        <div class="logistics-content">
+                                <div class="section-title  text-left">
+                                        <span class="subtitle">Our Core Values</span>
+                                        <h2 class="title">Global Lead Logistics</h2>
+                                        <p>Affronting everything discretion men now own did. Still round match we to. Frankness pronounce daughters remainder extensive has but. Building mr concerns servants in he outlived am breeding. He so lain good miss when sell some at if. Told hand so an rich gave next. How doubt yet again see son smart. While mirth large of on front. Ye he greater related adapted proceed entered an. Through it examine express promise no. Past add size game cold girl off how old.</p>
+                                </div>
+                        </div>
+                        <div class="counterup" id="counterup">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-4 col-sm-4">
+                                            <div class="countr wow fadeInLeft">
+                                                <div class="couter-icon">
+                                                        <i class="flaticon-box"> </i>
+                                                </div>
+                                                <span class="counter">45789</span>
+                                                <h3 class="title">Packages Delivered</h3>
+                                            </div>
+                                        </div>
+                            
+                                        <div class="col-lg-4 col-md-4 col-sm-4">
+                                            <div class="countr wow fadeInUp">
+                                                    <div class="couter-icon">
+                                                            <i class="flaticon-group-1"> </i>
+                                                    </div>
+                                                <span class="counter">31216</span>
+                                                <h3 class="title">Repeat Customers</h3>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-4 col-sm-4">
+                                            <div class="countr wow fadeInRight">
+                                                    <div class="couter-icon">
+                                                            <i class="flaticon-box"> </i>
+                                                    </div>
+                                                <span class="counter">21454</span>
+                                                <h3 class="title">Our Clients</h3>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                </div>
+               
+            </div>
+        </div>
+    </div>
+    <!-- End Logistics area  -->
+    
+<!-- Start Our Shipment area  -->
+<div class="shipment-area">
+        <div class="container">
+            <div class="row justify-content-start">
+                    <div class="col-lg-5 d-flex">
+                        <div class="section-title white  text-left m-auto">
+                                <span class="subtitle">Experience</span>
+                                <h2 class="title">We Have More Then 15 Year Experience In Transport</h2>
+                                <p>Affronting everything discretion men now own did. Still round match we to. Frankness pronounce daughters remainder extensive has but. Happiness cordially one determine concluded fat. Plenty season beyond by hardly giving of. Consulted or acuteness dejection an smallness if. Outward general passage another as it.</p>
+                                <div class="btn-wrapper animated fadeInUpBig text-left">
+                                        <a href="#" class="boxed-btn blank-02">Contact us</a>
+                                    </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="shipment-form-wrap">
+                            <h3 class="title">Services Calculator</h3>
+                            <form id="shipment-form">
+                                    <div class="personal-data">
+                                            <div class="row">
+                                                    <div class="col-lg-12">
+                                                            <h4>Personal Data</h4>
+                                                    </div>
+                                                    <div class="col-lg-4">
+                                                            <div class="form-group">
+                                                                    <input type="text" class="form-control" name="name" id="name" placeholder="Name" required>
+                                                            </div>
+                                                    </div>
+                                                    <div class="col-lg-4">
+                                                            <div class="form-group">
+                                                                    <input type="email" class="form-control"  name="email" id="email" placeholder="Email" required>
+                                                            </div>
+                                                    </div>
+                                                    <div class="col-lg-4">
+                                                            <div class="form-group">
+                                                                    <input type="number" class="form-control" name="phone" id="phone" placeholder="Phone" required>
+                                                            </div>
+                                                    </div>
+                                                </div>
+                                     </div>
+                                     <div class="shipment-date">
+                                        <div class="row">
+                                                <div class="col-lg-12">
+                                                        <h4>Shipment Date</h4>
+                                                </div>
+                                                <div class="col-lg-4">
+                                                        <div class="form-group">
+                                                                <select title="Please choose" class="form-control custom-select"  name="package1"  aria-required="true" aria-invalid="false">
+                                                                        <option value="">Freight Type</option>
+                                                                        <option value="Type 1">Type 1</option>
+                                                                        <option value="Type 2">Type 2</option>
+                                                                        <option value="Type 3">Type 3</option>
+                                                                        <option value="Type 4">Type 4</option>
+                                                                    </select>
+                                                        </div>
+                                                </div>
+                                                <div class="col-lg-4">
+                                                        <div class="form-group">
+                                                                <select title="Please choose" class="form-control custom-select"  name="package2"  aria-required="true" aria-invalid="false">
+                                                                        <option value="">City of Department</option>
+                                                                        <option value="london">London</option>
+                                                                        <option value="california">California</option>
+                                                                        <option value="dhaka">Dhaka</option>
+                                                                        <option value="new york">New york</option>
+                                                                    </select>
+                                                        </div>
+                                                </div>
+                                                <div class="col-lg-4">
+                                                        <div class="form-group">
+                                                                <select title="Please choose" class="form-control custom-select"  name="package3" aria-required="true" aria-invalid="false">
+                                                                        <option value="">Delivery City</option>
+                                                                        <option value="">City of Department</option>
+                                                                        <option value="london">London</option>
+                                                                        <option value="california">California</option>
+                                                                        <option value="dhaka">Dhaka</option>
+                                                                        <option value="new york">New york</option>
+                                                                    </select>
+                                                        </div>
+                                                </div>
+                                                <div class="col-lg-4">
+                                                        <div class="form-group">
+                                                                <input type="text" class="form-control" name="incoterms" id="incoterms" placeholder="Incoterms" required>
+                                                        </div>
+                                                </div>
+                                                <div class="col-lg-4">
+                                                        <div class="form-group">
+                                                                <input type="text" class="form-control" name="height" id="height" placeholder="Height" required>
+                                                        </div>
+                                                </div>
+                                                <div class="col-lg-4">
+                                                        <div class="form-group">
+                                                                <input type="text" class="form-control" name="length" id="length" placeholder="Length" required>
+                                                        </div>
+                                                </div>
+                                            </div>
+                                 </div>
+                                 <div class="submit-shipment">
+                                     <div class="row">
+                                         <div class="col-lg-12">
+                                                <div class="weight">
+                                                        <span>Weight</span>
+                                                           <div class="slidershell" id="slidershell1">
+                                                               <div class="sliderfill" id="sliderfill1"></div>
+                                                               <div class="slidertrack" id="slidertrack1"></div>
+                                                               <div class="sliderthumb" id="sliderthumb1"></div>
+                                                               <div class="slidervalue" id="slidervalue1">0</div>
+                                                               <input class="slider form-control" id="slider1" type="range" min="0" max="1000" value="0"
+                                                               oninput="showValue(value,1,false);" onchange="showValue(value,1,false);"/>
+                                                           </div>
+                                                    </div>
+                                                    <div class="shipment-process">
+                                                           <div class="form-group">
+                                                                    <input type="radio" class="form-radio" id="process1" name="radio-group" checked>
+                                                                   <label for="process1">Fragile</label>
+                                                                    <input type="radio" class="form-radio" id="process2" name="radio-group" checked>
+                                                                   <label for="process2">Express Delivery</label>
+                                                                   <input type="radio" class="form-radio" id="process3" name="radio-group" checked>
+                                                                   <label for="process3">Insurance</label>
+                                                                   <input type="radio" class="form-radio" id="process4" name="radio-group" checked>
+                                                                   <label for="process4">Packaging</label>
+                                                           </div>
+                                                    </div>
+                                                   
+                                                    <div class="form-group ">
+                                                           <button type="submit" class="shipment-btn" > Request a Quite </button>
+                                                       </div>
+                                         </div>
+                                     </div>
+                                    </div>
+                                     
+                            </form>
+                           
+                           
+                        </div>
+                    </div>
+
+                 </div>
+        </div>
+</div>
+<!-- End Our Shipment area  -->
+
+<!-- Start Testimonial area  -->
+<div class="testimonial-area">
+        <div class="container">
+            <div class="row">
+                    <div class="col-lg-4 d-flex">
+                        <div class="section-title  text-left m-auto">
+                                <span class="subtitle">Experience</span>
+                                <h2 class="title">Our Clint Review</h2>
+                                <p>Full age sex set feel her told. Tastes giving in passed direct me valley as supply. End great stood boy noisy often way taken short. Rent the size our more door. Years no place abode in ﻿no child my. Man pianoforte too solicitude friendship devonshire ten ask.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="review-area style-01">
+                                <div class="row">
+                                        <div class="col-lg-12">
+                                          <div class="testimonial-slider" >
+                                                <div class="single-review-item">
+                                                        <div class="review-head">
+                                                            <div class="thumb">
+                                                                <img src="assets/version-2/img/reviewer/01.png" alt="reviewer images">
+                                                            </div>
+                                                            <div class="author-details">
+                                                                <h5 class="author">Michel Robertson</h5>
+                                                                <span class="post">Irene Burns</span>
+                                                                <ul class="rating">
+                                                                        <li class="fa fa-star"></li>
+                                                                        <li class="fa fa-star"></li>
+                                                                        <li class="fa fa-star"></li>
+                                                                        <li class="fa fa-star"></li>
+                                                                        <li class="fa fa-star"></li>
+                                                                    </ul>
+                                                            </div>
+                                                        </div>                    
+                                                        <div class="desciption">
+                                                            <p>In to am attended desirous raptures declared diverted confined at. Collected instantly remaining up certainly to necessary as. Over walk dull into son boy door went new. At or happiness commanded daughters as. Is handsome an declared at received in extended vicinity subjects.
+                                                            </p>
+                                                            
+                                                        </div>
+                                                    </div>
+                                                    <div class="single-review-item">
+                                                            <div class="review-head">
+                                                                <div class="thumb">
+                                                                    <img src="assets/version-2/img/reviewer/02.png" alt="reviewer images">
+                                                                </div>
+                                                                <div class="author-details">
+                                                                    <h5 class="author">Michel Robertson</h5>
+                                                                    <span class="post">Irene Burns</span>
+                                                                    <ul class="rating">
+                                                                            <li class="fa fa-star"></li>
+                                                                            <li class="fa fa-star"></li>
+                                                                            <li class="fa fa-star"></li>
+                                                                            <li class="fa fa-star"></li>
+                                                                            <li class="fa fa-star"></li>
+                                                                        </ul>
+                                                                </div>
+                                                            </div>                    
+                                                            <div class="desciption">
+                                                                <p>In to am attended desirous raptures declared diverted confined at. Collected instantly remaining up certainly to necessary as. Over walk dull into son boy door went new. At or happiness commanded daughters as. Is handsome an declared at received in extended vicinity subjects.
+                                                                </p>
+                                                                
+                                                            </div>
+                                                        </div>
+                                                        <div class="single-review-item">
+                                                            <div class="review-head">
+                                                                <div class="thumb">
+                                                                    <img src="assets/version-2/img/reviewer/01.png" alt="reviewer images">
+                                                                </div>
+                                                                <div class="author-details">
+                                                                    <h5 class="author">Michel Robertson</h5>
+                                                                    <span class="post">Irene Burns</span>
+                                                                    <ul class="rating">
+                                                                            <li class="fa fa-star"></li>
+                                                                            <li class="fa fa-star"></li>
+                                                                            <li class="fa fa-star"></li>
+                                                                            <li class="fa fa-star"></li>
+                                                                            <li class="fa fa-star"></li>
+                                                                        </ul>
+                                                                </div>
+                                                            </div>                    
+                                                            <div class="desciption">
+                                                                <p>In to am attended desirous raptures declared diverted confined at. Collected instantly remaining up certainly to necessary as. Over walk dull into son boy door went new. At or happiness commanded daughters as. Is handsome an declared at received in extended vicinity subjects.
+                                                                </p>
+                                                                
+                                                            </div>
+                                                        </div>
+                                                        <div class="single-review-item">
+                                                                <div class="review-head">
+                                                                    <div class="thumb">
+                                                                        <img src="assets/version-2/img/reviewer/02.png" alt="reviewer images">
+                                                                    </div>
+                                                                    <div class="author-details">
+                                                                        <h5 class="author">Michel Robertson</h5>
+                                                                        <span class="post">Irene Burns</span>
+                                                                        <ul class="rating">
+                                                                                <li class="fa fa-star"></li>
+                                                                                <li class="fa fa-star"></li>
+                                                                                <li class="fa fa-star"></li>
+                                                                                <li class="fa fa-star"></li>
+                                                                                <li class="fa fa-star"></li>
+                                                                            </ul>
+                                                                    </div>
+                                                                </div>                    
+                                                                <div class="desciption">
+                                                                    <p>In to am attended desirous raptures declared diverted confined at. Collected instantly remaining up certainly to necessary as. Over walk dull into son boy door went new. At or happiness commanded daughters as. Is handsome an declared at received in extended vicinity subjects.
+                                                                    </p>
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                            <div class="single-review-item">
+                                                                <div class="review-head">
+                                                                    <div class="thumb">
+                                                                        <img src="assets/version-2/img/reviewer/01.png" alt="reviewer images">
+                                                                    </div>
+                                                                    <div class="author-details">
+                                                                        <h5 class="author">Michel Robertson</h5>
+                                                                        <span class="post">Irene Burns</span>
+                                                                        <ul class="rating">
+                                                                                <li class="fa fa-star"></li>
+                                                                                <li class="fa fa-star"></li>
+                                                                                <li class="fa fa-star"></li>
+                                                                                <li class="fa fa-star"></li>
+                                                                                <li class="fa fa-star"></li>
+                                                                            </ul>
+                                                                    </div>
+                                                                </div>                    
+                                                                <div class="desciption">
+                                                                    <p>In to am attended desirous raptures declared diverted confined at. Collected instantly remaining up certainly to necessary as. Over walk dull into son boy door went new. At or happiness commanded daughters as. Is handsome an declared at received in extended vicinity subjects.
+                                                                    </p>
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                </div>
+                    </div>
+            </div>
+        </div>
+</div>
+<!-- End Testimonial area  -->
+      <!-- company area start  -->
+    <div class="company-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-lg-12">
+                        <div class="company-carousel">
+                            <div class="single-carousel-item">
+                                <a href="#"><img src="assets/version-2/img/company/01.png" class="img-fluid" alt="company image"></a>
+                            </div>
+                            <div class="single-carousel-item">
+                                <a href="#"><img src="assets/version-2/img/company/02.png" class="img-fluid" alt="company image"></a>
+                            </div>
+                            <div class="single-carousel-item">
+                                <a href="#"><img src="assets/version-2/img/company/04.png" class="img-fluid" alt="company image"></a>
+                            </div>
+                            <div class="single-carousel-item">
+                                <a href="#"><img src="assets/version-2/img/company/03.png" class="img-fluid" alt="company image"></a>
+                            </div>
+                            <div class="single-carousel-item">
+                                <a href="#"><img src="assets/version-2/img/company/05.png" class="img-fluid" alt="company image"></a>
+                            </div>
+                            <div class="single-carousel-item">
+                                <a href="#"><img src="assets/version-2/img/company/06.png" class="img-fluid" alt="company image"></a>
+                            </div>
+                            <div class="single-carousel-item">
+                                    <a href="#"><img src="assets/version-2/img/company/05.png" class="img-fluid" alt="company image"></a>
+                                </div>
+                                <div class="single-carousel-item">
+                                    <a href="#"><img src="assets/version-2/img/company/06.png" class="img-fluid" alt="company image"></a>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    <!-- company area end -->
+
+       <!-- footer area start  -->   
+        <footer class="footer-area">
+                <!-- Widget Area Starts -->
+                <div class="footer-widget-area">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-3 tab-margin-bottom-30">
+                                <div class="footer-widget widget about_us_widget">
+                                    <div class="footer-logo">
+                                        <a href="index.html"><img src="assets/version-2/img/logo-white.png" alt="logo"></a>
+                                    </div>
+                                    <p>Affronting everything discretion men now own did. Still round match we to. Frankness pronounce daughters remainder extensive has but. Building mr concerns servants in he outlived am breeding.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 offset-lg-1 tab-margin-bottom-30">
+                                <div class="footer-widget widget widget_nav_menu">
+                                    <h5 class="widget-title">Valuable link</h5>
+                                    <ul>
+                                            <li><a href="#">Services</a></li>
+                                        <li><a href="#">Classic List</a></li>
+                                        <li><a href="#">About us</a></li>
+                                        <li><a href="#">Contact</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 tab-margin-bottom-30">
+                                <div class="footer-widget widget widget_nav_menu">
+                                    <h5 class="widget-title">Address </h5>
+                                    <p>813 West Livingston Drive</p>
+                                    <p>King Of Prussia, PA 19406</p>
+                                    <p>Phone: +8801-234-567-890</p>
+                                    <p> Email: hemal.jms@gmail.com</p>
+                                      
+                                </div>
+                            </div>
+                            <div class="col-lg-3 offset-lg-1">
+                                <div class="footer-widget widget">
+                                    <h5 class="widget-title">Latest Update</h5>
+                                    <p> Of friendship on inhabiting</p>
+                                    <p>Did friendly eat breeding</p>
+                                    <p>Object he barton no effect</p>
+                                    <p>Period so to oppose we</p>
+                                      
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Widget Area End -->
+        
+                <!-- Copyright Area Starts -->
+                <div class="footer-copyright-area">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="copyright-text">
+                                    <span>© 2019 <a href="#" class="active">Transpro</a>  - All rights reserved.  <a href="#" target="_blank">wowtheme7</a>.</span>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="footer-social">
+                                        <ul class="social-link">
+                                                <li>
+                                                    <a href="#" target="_blank" class="facebook"> <i class="fa fa-facebook-f" aria-hidden="true"></i></a>
+                                                </li>
+                                                
+                                                <li><a href="#" target="_blank" class="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                                <li><a href="https://www.youtube.com/channel/UCz1tS-oRzKeElBOd6pIjgLQ" target="_blank" class="youtube"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                                                <li><a href="#" target="_blank" class="instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                                </li>
+                                               
+                                            </ul>
+                                </div>
+                                  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Copyright Area End -->
+            </footer>
+
+    <!-- back to top area start -->
+    <div class="back-to-top">
+        <span class="back-top"><i class="fa fa-angle-up"></i></span>
+    </div>
+    <!-- back to top area end -->
+
+
+    <!-- jquery -->
+    <script src="assets/version-2/js/jquery-2.2.4.min.js"></script>
+    <!-- popper -->
+    <script src="assets/version-2/js/popper.min.js"></script>
+    <!-- bootstrap -->
+    <script src="assets/version-2/js/bootstrap.min.js"></script>
+    <!-- magnific popup -->
+    <script src="assets/version-2/js/jquery.magnific-popup.js"></script>
+    <!-- slick slider -->
+    <script src="assets/version-2/js/slick.min.js"></script>
+     <!-- Slick Animation -->
+     <script src="assets/version-2/js/slick-animation.js"></script>
+    <!-- wow -->
+    <script src="assets/version-2/js/wow.min.js"></script>
+    <!-- owl carousel -->
+    <script src="assets/version-2/js/owl.carousel.min.js"></script>
+    <!-- waypoint -->
+    <script src="assets/version-2/js/waypoints.min.js"></script>
+    <!-- counterup -->
+    <script src="assets/version-2/js/jquery.counterup.min.js"></script>
+    <!-- imageloaded -->
+    <script src="assets/version-2/js/imagesloaded.pkgd.min.js"></script>
+     <!-- videoPlayer -->
+     <script src="assets/version-2/js/jquery.rvideoPlayer.js"></script>
+    <!-- tilt -->
+    <script src="assets/version-2/js/tilt.jquery.min.js"></script>
+    <!-- isotope -->
+    <script src="assets/version-2/js/isotope.pkgd.min.js"></script>
+       <!--range -->
+       <script src="assets/version-2/js/range.js"></script>
+         <!--signin -->
+         <script src="assets/version-2/js/signin.js"></script>
+    <!-- main js -->
+    <script src="assets/version-2/js/main.js"></script>
+
+</body>
+
+</html>
